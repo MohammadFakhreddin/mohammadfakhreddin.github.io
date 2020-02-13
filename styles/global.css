@@ -1,0 +1,91 @@
+@font-face {
+  font-family: isans_header;
+  src:url(/fonts/fa/IRANSansMobile_Bold.ttf);
+}
+
+@font-face{
+  font-family: isans_body;
+  src:url(/fonts/fa/IRANSansMobile_Light.ttf)
+}
+
+@font-face{
+  font-family: roboto_header;
+  src:url(/fonts/en/Roboto-Bold.ttf) 
+}
+
+@font-face{
+  font-family: roboto_body;
+  src: url(/fonts/en/Roboto-Light.ttf);
+}
+
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
+
+html, body {
+  overflow-x: hidden;
+  --blue:#2E5BFF;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color:#2E5BFF;
+  border-color:#2E5BFF;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card{
+  display: flex;
+  border-radius: 0.4em;
+  align-self: center;
+  border-width: 0em;
+}
+
+.touchable:hover{
+  opacity: 0.7;
+}
+
+.touchable{
+  opacity: 1;
+}
+
+button:focus {
+  outline:0;
+}
+
+input.baseEditText::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #B0BAC9;
+  opacity: 1; /* Firefox */
+}
+
+.spacer{
+  display: flex;
+  flex: 1;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.form-control-invalid {
+  border-color: #FF5D5C;
+}
+
+.form-control-invalid:focus {
+  border-color: #FF5D5C;
+  box-shadow: 1px 1px 1px 1px rgba(248,205,209) inset, 0 0 8px rgba(248,205,209);
+}
+
+.fa-shadow{
+  box-shadow:0 .5rem 1rem rgba(212,221,253,0.5) !important
+}
