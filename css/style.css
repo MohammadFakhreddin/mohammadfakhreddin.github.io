@@ -87,11 +87,11 @@ button:focus {
     .section_gap_top {
       padding-top: 80px; } }
 
-.section_gap_bottom {
+/* .section_gap_bottom {
   padding-bottom: 120px; }
   @media (max-width: 991px) {
     .section_gap_bottom {
-      padding-bottom: 80px; } }
+      padding-bottom: 80px; } } */
 
 .gray-bg {
   background: #f9f9ff; }
